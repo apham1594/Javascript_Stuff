@@ -42,11 +42,31 @@ function tellFortune(jobTitle, geographicLocation, partner, children) {
     tellFortune('mafia boss', 'Pretoria', 'Lana Rhodes', 1);
     tellFortune('hitman', 'Tokyo', 'Mia Khalifa', 3);
 
+//The Geometrizer
+
+//Create 2 functions that calculate properties of a circle, using the definitions here.
+
+//Create a function called calcCircumfrence:
+function calcCircumfrence(radius) {
+//Pass the radius to the function.
+var y = (Math.PI * radius) * 2;
+//Calculate the circumference based on the radius, and output "The circumference is NN".
+console.log("The circumfrence is " + y + ".");
+  }
+//Create a function called calcArea:
+function calcArea(radius) {
+
+//Pass the radius to the function.
+var x = (Math.PI * radius) * radius;
+//Calculate the area based on the radius, and output "The area is NN".
+console.log("The area is " + x + ".");
+}
 
 // Array //
 //Create an Array called "donuts" that list 7-10 different items
 var donuts=['glazed', 'jelly', 'chocolate', 'lime zest', 'lemon pie','sprinkled', 'toffee','cherry']
 //1 Using a loop, iterate through this array and console.log all the donuts
+
 //2 Write the command to remove the first donut fron the array
 //3 Write the command to remove the last donuts from the array
 //4 Write the command to add a new donut "lime zest" to the front of the array
