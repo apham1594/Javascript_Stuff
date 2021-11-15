@@ -91,18 +91,7 @@ var donuts=['glazed', 'jelly', 'chocolate', 'lime zest', 'lemon pie','sprinkled'
 // cumin
 // cocoa*//
 
-const recipe = {
-    title: "Mole",
-    serving: 2,
-    ingrediants: ['cumin', 'cinnamon', 'cocoa']
-};
 
-document.write.getElementById("Ingrediants").innerHTML=""
-document.write.getElementById("serving").innerHTML
-document.write.getElementById('title').innerHTML
-
-for (var=i=0;i<recipe.ingrediants.length; i++)
-console.log($recipe.ingrediants)
 
 
 
